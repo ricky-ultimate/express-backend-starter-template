@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node ./dist/src/index.js",
+    "start": "npm run build && node ./dist/index.js",
     "build": "tsc",
     "prebuild": "prisma generate",
     "db:push": "prisma db push",
