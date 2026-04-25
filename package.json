@@ -1,7 +1,7 @@
 {
     "name": "express-backend-starter-template",
     "version": "1.0.0",
-    "description": "",
+    "description": "Express.js backend starter template with TypeScript, Prisma, and PostgreSQL",
     "main": "index.js",
     "scripts": {
         "start": "npm run build && node ./dist/src/index.js",
@@ -11,22 +11,17 @@
         "db:studio": "prisma studio",
         "db:pull": "prisma db pull",
         "db:migrate": "prisma migrate dev",
-        "dev": "ts-node-dev ./src/index.ts --watch ./*/**",
-        "test": "cross-env NODE_ENV='test' jest --detectOpenHandles",
-        "test:watch": "npm run test --watchAll"
+        "dev": "ts-node-dev ./src/index.ts --watch ./*/**"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ricky-ultimate/express-backend-starter-template.git"
-    },
-    "keywords": [],
+    "keywords": [
+        "express",
+        "typescript",
+        "prisma",
+        "postgresql",
+        "template"
+    ],
     "author": "",
     "license": "ISC",
-    "type": "commonjs",
-    "bugs": {
-        "url": "https://github.com/ricky-ultimate/express-backend-starter-template/issues"
-    },
-    "homepage": "https://github.com/ricky-ultimate/express-backend-starter-template#readme",
     "dependencies": {
         "@prisma/adapter-pg": "^7.8.0",
         "@prisma/client": "^7.8.0",
