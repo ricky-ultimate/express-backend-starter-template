@@ -11,6 +11,7 @@
         "db:studio": "prisma studio",
         "db:pull": "prisma db pull",
         "db:migrate": "prisma migrate dev",
+        "db:migrate:deploy": "prisma migrate deploy",
         "dev": "ts-node-dev ./src/index.ts --watch ./*/**"
     },
     "keywords": [
